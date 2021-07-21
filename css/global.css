@@ -1,0 +1,53 @@
+html {
+    font-family: Verdana;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1{
+    /* justify-self: flex-start; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #335576;
+}
+
+
+.flex-template{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-bar-list{
+    justify-content: flex-end;
+    align-self: flex-start;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.nav-bar{
+    display: flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    padding-right: 70px;
+}
+
+.nav-bar__title{
+    justify-content: flex-start;
+    align-self: flex-start;
+    flex: 1;
+    padding-left: 80px;
+}
+
+.nav-bar__location{
+    width: 100;
+    height: 100;
+    padding-right: 20px;
+    list-style: none;
+}
+
+
+
