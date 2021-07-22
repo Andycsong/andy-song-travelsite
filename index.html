@@ -8,7 +8,6 @@
     <title>andy-song-travelsite</title>
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="/css/destinations.css">
 </head>
 
 <body>
@@ -18,11 +17,19 @@
         <!-- Navigation Bar -->
         <nav class="nav-bar">
             <h1 class="nav-bar__title">Travel Site</h1>
-            <ul class="flex-template nav-bar-list">
-                <li class="nav-bar__location">Home</li>
-                <li class="nav-bar__location">Hawaii</li>
-                <li class="nav-bar__location">Iceland</li>
-                <li class="nav-bar__location">Greece</li>
+            <ul class="nav-bar-list">
+                <li class="nav-bar__location">
+                    <a class="nav-bar__link nav__home" href="/index.html">Home</a>
+                </li>
+                <li class="nav-bar__location">
+                    <a class="nav-bar__link nav__hawaii" href="/pages/hawaii.html">Hawaii</a>
+                </li>
+                <li class="nav-bar__location">
+                    <a class="nav-bar__link nav__iceland" href="/pages/iceland.html">Iceland</a>
+                </li>
+                <li class="nav-bar__location">
+                    <a class="nav-bar__link nav__greece" href="/pages/greece.html">Greece</a>
+                </li>
             </ul>
         </nav>
 
@@ -42,34 +49,41 @@
 
     <!-- Recommendations -->
     <section class="recommendations">
-        <h3>Recommendations</h3>
-        <div class="recommendations-card hawaii-card">Hawaii</div>
-        <div class="recommendations-card iceland-card">Iceland</div>
-        <div class="recommendations-card greece-card">Greece</div>
-
+        <h2 class="recommendations-title">Recommendations</h2>
+        <div class="recommendations-container">
+            <div class="recommendations-card recommendations-card__template hawaii-card">Hawaii</div>
+            <div class="recommendations-card recommendations-card__template iceland-card">Iceland</div>
+            <div class="recommendations-card recommendations-card__template greece-card">Greece</div>
+        </div>
     </section>
 
 
-
-    <!-- Footer -->
-    <footer>
-        <div class="contact">
-            <h3>Contact</h3>
-            <p>EMAIL</p>
+    <footer class="footer-container">
+        <div class="contact-container">
+            <h3 class="footer-title">Contact</h3>
+            <p class="footer-sub">EMAIL</p>
+            <p class="footer-sub__text">info@travelsite.com</p>
         </div>
-
-        <div class="hours">
-            <h3>Hours</h3>
-            <P>MONDAY-FRIDAY</P>
-            <P>9:00 AM - 5:00 PM</P>
-            <P>SATURDAY</P>
-            <P>SUNDAY</P>
+        <div>
+            <h3 class="footer-title">Hours</h3>
+            <p class="footer-sub">MONDAY - FRIDAY
+                <span class="footer-sub footer__saturday">SATURDAY</span>
+                <Span class="footer-sub">SUNDAY</span>
+            </p>
+            <p class="footer-sub__text">9:00 AM - 5:00 PM
+                <span class="footer-sub__text footer__time">10:00 AM - 4:00 PM</span>
+                <span class="footer-sub__text">Closed</span>
+            </p>
         </div>
-        <div class="social">
-            <h3>Social</h3>
+        <div>
+            <h3 class="footer-title">Social</h3>
+            <nav class="footer-social-icon">
+                <img src="/assets/Icons/icon-instagram.png" class="social-instagram-icon" alt="instagram-icon">
+                <img src="/assets/Icons/icon-facebook.png" class="social-facebook-icon" alt="facebook-icon">
+                <img src="/assets/Icons/icon-twitter.png" class="social-twitter-icon" alt="icon-twitter">
+            </nav>
         </div>
     </footer>
-
 </body>
 
 </html>

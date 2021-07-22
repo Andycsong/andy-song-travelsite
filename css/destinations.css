@@ -1,0 +1,74 @@
+
+.nav__hawaii{
+    border-bottom: 3px solid #DB7A4E;
+}
+
+.nav__iceland{
+    border-bottom: 3px solid #DB7A4E;
+}
+
+.nav__greece{
+    border-bottom: 3px solid #DB7A4E;
+}
+
+
+.destination-background{
+   height: 60vh;
+   background-size:100%;
+    background-position: center;
+
+}
+
+
+
+.background-hawaii{
+    background-image: url(/assets/Images/hawaii.jpg);
+}
+
+
+.destination-title{
+    color: white;
+    font-size: 48px;
+    font-weight: bold;
+    align-self: flex-start;
+    display: inline-flex;
+    margin-left: 80px;
+}
+
+.schedule-card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.schedule-card{
+    border-radius: 5px;
+    width: 16rem;
+    border: 1px solid rgba(0,0,0,0.20);
+    box-shadow: 0 4 4 rgba(0,0,0,0.20);
+    background-color: white;
+    margin-right: 2rem;
+}
+
+.schedule-card-list{
+    padding: 0;
+    padding-bottom: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.schedule-card__title{
+    text-align: center;
+    font-weight:900;
+    border-bottom: 3px solid black;
+}
+
+.schedule__item{
+    list-style: none;
+    text-align: center;
+    background-color: #FEFAF5;
+    padding:1rem;
+    margin-bottom: 1rem;
+    font: weight 500px;;
+}

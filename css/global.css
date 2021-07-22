@@ -6,18 +6,8 @@ html {
     box-sizing: border-box;
 }
 
-h1{
-    /* justify-self: flex-start; */
-    margin-top: 10px;
-    margin-bottom: 10px;
-    color: #335576;
-}
 
 
-.flex-template{
-    display: flex;
-    flex-direction: row;
-}
 
 .nav-bar-list{
     justify-content: flex-end;
@@ -35,12 +25,26 @@ h1{
     padding-right: 70px;
 }
 
+.nav-bar__link{
+   text-decoration: none;
+}
+
+.nav-bar__link:visited{
+    text-decoration: none;
+    color: black;
+}
+
 .nav-bar__title{
     justify-content: flex-start;
     align-self: flex-start;
     flex: 1;
     padding-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #335576;
+    font-size: 18px;
 }
+
 
 .nav-bar__location{
     width: 100;
@@ -49,5 +53,62 @@ h1{
     list-style: none;
 }
 
+.footer-container{
+    background-color: #FEFAF5;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #335576;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-title{
+    font-size: 24px;
+}
+
+.footer-sub{
+    color: #DB7A4E;
+    font-size: 12px;
+}
+
+.contact-container{
+    margin-left: 40px;
+}
 
 
+.footer__saturday{
+    margin-left: 80px;
+    margin-right: 160px;
+}
+
+.footer__sunday{
+    padding-right:70px;
+}
+
+.footer-sub__text{
+    margin-top: 0;
+    padding-right: 60px;
+}
+
+.footer__time{
+    margin-left: 40px;
+}
+
+.footer-social-icon{
+    
+    height: auto;
+}
+
+.social-instagram-icon{
+    width: 34px;
+}
+.social-facebook-icon{
+    width: 18px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+.social-twitter-icon{
+    width: 38px;
+}
