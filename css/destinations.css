@@ -13,7 +13,7 @@
 
 
 .destination-background{
-    padding-top: 50px;
+    padding-top: 3.125rem;
    height: 50vh;
    background-size:100%;
     background-position: center;
@@ -26,14 +26,21 @@
     background-image: url(/assets/Images/hawaii.jpg);
 }
 
+.background-iceland{
+    background-image: url(/assets/Images/iceland.jpg);
+}
+
+.background-greece{
+    background-image: url(/assets/Images/greece.jpg);
+}
 
 .destination-title{
     color: white;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: bold;
     align-self: flex-start;
     display: inline-flex;
-    margin-left: 80px;
+    margin-left: 5rem;
 }
 
 .schedule-card-container{
@@ -54,7 +61,7 @@
 
 .schedule-card-list{
     padding: 0;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -71,5 +78,5 @@
     background-color: #FEFAF5;
     padding:1rem;
     margin-bottom: 1rem;
-    font: weight 500px;;
+    font-weight:  500;
 }

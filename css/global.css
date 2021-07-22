@@ -12,7 +12,6 @@ html {
 .nav-bar-list{
     justify-content: flex-end;
     align-self: flex-start;
-    padding-right: 0px;
     display: flex;
     flex-direction: row;
     
@@ -22,13 +21,13 @@ html {
     display: flex;
     justify-self: flex-start;
     align-self: flex-start;
-    padding-right: 70px;
+    padding-right: 4.375rem;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1;
     width: 100%;
-    height: 50px;
+    height: 3.125rem;
     background-color: white;
 }
 
@@ -45,11 +44,11 @@ html {
     justify-content: flex-start;
     align-self: flex-start;
     flex: 1;
-    padding-left: 80px;
-    margin-top: 10px;
+    padding-left: 5rem;
+    margin-top: 0.625rem;
     margin-bottom: 10px;
     color: #335576;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight:800
 }
 
@@ -61,7 +60,7 @@ html {
 .nav-bar__location{
     width: 100;
     height: 100;
-    padding-right: 20px;
+    padding-right: 1.25rem;
     list-style: none;
 }
 
@@ -71,56 +70,55 @@ html {
     flex-direction: row;
     justify-content: center;
     color: #335576;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .footer-title{
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .footer-sub{
     color: #DB7A4E;
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .contact-container{
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 
 .footer__saturday{
-    margin-left: 80px;
-    margin-right: 160px;
+    margin-left: 5rem;
+    margin-right: 10rem;
 }
 
 .footer__sunday{
-    padding-right:70px;
+    padding-right:4.375rem;
 }
 
 .footer-sub__text{
     margin-top: 0;
-    padding-right: 60px;
+    padding-right: 3.75rem;
 }
 
 .footer__time{
-    margin-left: 40px;
+    margin-left: 2.5rem;
 }
 
 .footer-social-icon{
-    
     height: auto;
 }
 
 .social-instagram-icon{
-    width: 34px;
+    width: 2.125rem;
 }
 .social-facebook-icon{
-    width: 18px;
+    width: 1.125rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1rem;
 }
 .social-twitter-icon{
-    width: 38px;
+    width: 2.375rem;
 }
