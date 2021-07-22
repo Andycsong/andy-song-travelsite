@@ -106,6 +106,10 @@ html {
     margin-left: 2.5rem;
 }
 
+.footer-anchor{
+    text-decoration: none;
+}
+
 .footer-social-icon{
     height: auto;
 }
