@@ -12,6 +12,7 @@
     display: flex;
     padding-left: 80px;
     padding-bottom: 100px;
+    padding-top: 50px;
 }
 
 .hero-flex1{
@@ -79,7 +80,7 @@
 
 .recommendations-card{
     border-radius: 5px;
-    min-width: 294px;
+    min-width: 300px;
     max-width: 350px;
     min-height: 440px;
     max-height: 460px;
@@ -88,16 +89,25 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-end;
+    position: relative;
 }
 
 .recommendations-card__template{
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size:cover;
     color: white;
     font-weight: bold;
     padding-bottom: 20px;
     padding-right: 20px;
     font-size: 24px;
+}
+
+.recommendations-anchor{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
 }
 
 .hawaii-card{
